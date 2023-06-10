@@ -327,7 +327,7 @@ def quatre_button () :
     reponse = "quatre"
     if reponse == "quatre" :
         if reponselettre == "oui" and reponsechiffre == "oui" and reponsesigne == "oui":
-            reponse_tkinter.set("Voici votre mot de passe : {}{}{}{}".format(rand + rand2 + rand3 , rand4))
+            reponse_tkinter.set("Voici votre mot de passe : {}{}{}{}".format(rand , rand2 , rand3 , rand4))
             reponse_tkinter2.set("Votre mot de passe est médiocre")
         elif reponselettre == "oui" and reponsechiffre == "oui" and reponsesigne == "non":
             reponse_tkinter.set("Voici votre mot de passe : {}{}{}{}".format(rand_lettre_et_nombre, rand2_lettre_et_nombre, rand3_lettre_et_nombre, rand4_lettre_et_nombre))
